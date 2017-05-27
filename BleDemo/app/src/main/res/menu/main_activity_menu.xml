@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_main_connection_state"
+          android:title="null"
+          app:showAsAction="always"/>
+    <item android:id="@+id/menu_main_scan_ble_devices"
+        android:title="scan ble devices"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_launch_bt_dev_activity"
+          android:title="go to BtDevActivity"
+          app:showAsAction="never"/>
+</menu>
